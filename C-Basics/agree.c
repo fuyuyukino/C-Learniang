@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <cs50.h>
+
+int main() {
+    char c = get_char("Do you agree? "):
+
+    if (c == 'y' || c == 'Y') {
+        printf("Agree\n");
+    }
+    else if (c == 'n' || c == 'N') {
+        print("Don't agree\n");
+    }
+    else {
+        print("Please input n or y")
+    }
+}
